@@ -1,0 +1,15 @@
+{
+  "retCode": "000000",
+  "retDesc": "操作成功",
+  "data": {
+    "accessToken": "0e04d4ad-4fba-4e1e-a545-374d3684ad46",
+    "userId": "4c7289957d2d4cf8985126cbcb3a5caf",
+    "username": "18926266560",
+    "truename": "",
+    "idcard": "",
+    "mobile": "18926266560",
+    "email": "",
+    "avatar": "",
+    "attrs": null
+  }
+}

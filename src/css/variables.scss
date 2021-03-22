@@ -1,0 +1,10 @@
+@import "./variable-app-prefix";
+@import "./variable-colors";
+@import "./variable-font";
+
+/*gap*/
+$page-gap: .1rem;
+
+:export {
+  appPrefix: $prefix;
+}
