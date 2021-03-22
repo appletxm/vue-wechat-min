@@ -6,6 +6,6 @@ module.exports = {
   dirFileName: {
     basePath: './',
     rule: /^[a-z][a-z|$|\d]*(-[\w]+)*(\.[\w]+)*$/,
-    ignore: /^mocks|assets|modules|dist$/
+    ignore: /^mocks|assets|dist$/
   }
 }
