@@ -25,7 +25,7 @@
     "sync": "node scripts/sync-dependencies.js",
     "clean": "rimraf dist/*",
     "initFiles": "npm run clean && npm run syncModules && npm run syncCfg",
-    "mock": "npm run initFiles mock && node scripts/dev-server.js mock",
+    "mock": "npm run initFiles && node scripts/dev-server.js mock",
     "start": "npm run dev",
     "dev": "npm run initFiles development && node scripts/dev-server.js development",
     "build": "npm run initFiles test && node scripts/build.js production test current-branch",
@@ -53,6 +53,7 @@
     "babel-loader": "^8.0.6",
     "chalk": "^2.4.2",
     "copy-webpack-plugin": "^5.0.4",
+    "cross-env": "^7.0.3",
     "css-loader": "^3.2.0",
     "eslint": "^5.0.0",
     "eslint-config-airbnb-base": "^14.0.0",
@@ -115,8 +116,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "hf-rules dirFileName --basePath ./ && hf-rules dirFileName --basePath ./ && hf-rules dirFileName --basePath ./",
-      "commit-msg": "hf-rules commitMessage && hf-rules commitMessage && hf-rules commitMessage"
+      "pre-commit": "hf-rules dirFileName --basePath ./ && hf-rules dirFileName --basePath ./ && hf-rules dirFileName --basePath ./ && hf-rules dirFileName --basePath ./ && hf-rules dirFileName --basePath ./ && hf-rules dirFileName --basePath ./",
+      "commit-msg": "hf-rules commitMessage && hf-rules commitMessage && hf-rules commitMessage && hf-rules commitMessage && hf-rules commitMessage && hf-rules commitMessage"
     }
   }
 }
